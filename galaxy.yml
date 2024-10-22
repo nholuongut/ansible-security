@@ -1,0 +1,20 @@
+---
+authors:
+  - Ansible Security Community (ansible-security)
+dependencies:
+  "ansible.netcommon": '*'
+  "ansible.utils": '*'
+  "cisco.asa": '*'
+  "ibm.qradar": '*'
+  "splunk.es": '*'
+  "trendmicro.deepsec": '*'
+license_file: LICENSE
+name: security
+description: Ansible Security meta Collection to install all security supported content.
+namespace: ansible
+readme: README.md
+repository: https://github.com/ansible-collections/ansible.security
+tags: [networking, security, cloud, network_cli, httpapi]
+# NOTE(pabelanger): We create an empty version key to keep ansible-galaxy
+# happy. We dynamically inject version info based on git information.
+version: null
